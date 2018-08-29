@@ -1,4 +1,4 @@
-const another = new Discord.Client();
+const Discord = require('discord.js');
 const client = new Discord.Client();
 let timer;
 console.log("BOT ONLINE");
@@ -41,4 +41,4 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 })
 
-another.login(process.env.BOTTT_TOKEN);
+client.login(process.env.BOTTT_TOKEN);
