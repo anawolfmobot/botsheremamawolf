@@ -37,5 +37,4 @@ https://discord.gg/kBbZ5nU
 **`) 
 }).catch(console.error)
 })
-
-client.login("NDgyNTE0NTY2MTgyNDY5NjM0.Dmhrrw.ouLehdti-MI_EeeeENDn7RY3F7c");
+another.login(process.env.BOT_TOKEN);
